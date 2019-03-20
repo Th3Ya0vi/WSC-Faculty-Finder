@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref='/'></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{this.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngIf="schedule">
+    <ion-card-header>
+      <ion-card-title>{{schedule.dept}}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-list>
+        <ion-item lines="none">
+          Phone : {{schedule.phone}}
+        </ion-item>
+        <ion-item lines="none">
+          Office : {{schedule.office}}
+        </ion-item>
+        <ion-item *ngIf="schedule.time.both != '' " lines="none">
+          Office Hours : {{schedule.time.both}}
+        </ion-item>
+        <ion-item *ngIf="schedule.time.mmw != '' " lines="none">
+          Office Hours: MWF: {{schedule.time.mmw}}
+          Office Hours: TR: {{schedule.time.TR}}
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

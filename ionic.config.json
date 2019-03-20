@@ -1,0 +1,8 @@
+{
+  "name": "WSC",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
