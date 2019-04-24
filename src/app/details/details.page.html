@@ -28,6 +28,12 @@
           Office Hours: MWF: {{schedule.time.mmw}}
           Office Hours: TR: {{schedule.time.TR}}
         </ion-item>
+        <ion-item *ngIf="schedule.time.class != '' " lines="none">
+          Class Hours: MWF: {{schedule.class.mmw}}
+          Class Hours: TR: {{schedule.class.TR}}
+        </ion-item>
+        
+        
       </ion-list>
     </ion-card-content>
   </ion-card>

@@ -14,6 +14,7 @@ export class DetailsPage implements OnInit {
   name;
   schedule;
 
+
   ngOnInit() {
     this.name = this.activatedRoute.snapshot.paramMap.get('name');
 
