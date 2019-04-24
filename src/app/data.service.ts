@@ -14,11 +14,10 @@ export class DataService {
       dept: 'Business & Economics',
       phone: '7255',
       office: 'GH 206F',
+      location: 'GH-215,GH-211,GH-208,GH-115',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
-
-
+        mmw: '9:00-9:50am,12:00-12:50pm,10:00,10:50am,1:00-1:50pm',
+        TR: '9:30-10:45am'
       },
       time: {
         mmw: '',
@@ -32,8 +31,8 @@ export class DataService {
       phone: '7412',
       office: 'GH 111B',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -49,8 +48,8 @@ export class DataService {
       phone: '7253',
       office: 'GH 206G',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -66,8 +65,8 @@ export class DataService {
       phone: '7020',
       office: 'GH 111E',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -83,8 +82,8 @@ export class DataService {
       phone: '7029',
       office: 'GH 111H',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -100,8 +99,8 @@ export class DataService {
       phone: '7233',
       office: 'GH 111A',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -117,8 +116,8 @@ export class DataService {
       phone: '7545',
       office: 'GH 206J',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -134,8 +133,8 @@ export class DataService {
       phone: '7254',
       office: 'GH 206H',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -151,8 +150,8 @@ export class DataService {
       phone: '7248',
       office: 'GH 111D',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -168,8 +167,8 @@ export class DataService {
       phone: '7479',
       office: 'GH 206E',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -185,8 +184,8 @@ export class DataService {
       phone: '7250',
       office: 'GH 111J',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -202,8 +201,8 @@ export class DataService {
       phone: '7022',
       office: 'GH 111G',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -219,8 +218,8 @@ export class DataService {
       phone: '7251',
       office: 'GH 206B',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -236,8 +235,8 @@ export class DataService {
       phone: '7071',
       office: 'GH 206K',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -253,8 +252,8 @@ export class DataService {
       phone: '7036',
       office: 'GH 111K',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -270,8 +269,8 @@ export class DataService {
       phone: '7245',
       office: 'GH 106',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -287,8 +286,8 @@ export class DataService {
       phone: '7021',
       office: 'GH 111C',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
@@ -304,8 +303,8 @@ export class DataService {
       phone: '7464',
       office: 'GH 206D',
       class:{
-        mmw: 'Information MGMT',
-        TR: '9am'
+        mmw: 'MWF Hours here',
+        TR: 'TR Hours here'
 
 
       },
