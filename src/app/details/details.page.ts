@@ -14,11 +14,11 @@ export class DetailsPage implements OnInit {
   name;
   schedule;
 
-
   ngOnInit() {
     this.name = this.activatedRoute.snapshot.paramMap.get('name');
 
     this.schedule = this.dataService.findTecherByName(this.name);
+    console.log(this.schedule);
 
   }
 

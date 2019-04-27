@@ -7,7 +7,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content no-padding>
   <ion-card *ngIf="schedule">
     <ion-card-header>
       <ion-card-title>{{schedule.dept}}</ion-card-title>
@@ -28,20 +28,64 @@
           Office Hours: MWF: {{schedule.time.mmw}}
           Office Hours: TR: {{schedule.time.TR}}
         </ion-item>
-        <ion-item *ngIf="schedule.time.class != '' " lines="none">
-            Class Hours: <br> MWF:  
-             {{schedule.class.mmw}} 
-         <br>
-          TR:  
-         {{schedule.class.TR}}
-          </ion-item>
-        <ion-item lines="none">
-            Class Location : {{schedule.location}}
-          </ion-item>
-        
-        
-        
       </ion-list>
     </ion-card-content>
   </ion-card>
+
+  <ion-grid no-padding>
+    <ion-row class="header">
+      <ion-col size="1">
+        SUB
+      </ion-col>
+      <ion-col size="1">
+        CRS
+      </ion-col>
+      <ion-col size="1">
+        SEC
+      </ion-col>
+      <ion-col size="4">
+        Course Title
+      </ion-col>
+      <ion-col size="1">
+        Days
+      </ion-col>
+      <ion-col size="1">
+        Start
+      </ion-col>
+      <ion-col size="1">
+        Stop
+      </ion-col>
+      <ion-col size="2">
+        Room
+      </ion-col>
+
+    </ion-row>
+    <ion-row class="rowborder" *ngFor="let entry of schedule.classSchedule">
+      <ion-col size="1">
+        {{entry.Sub}}
+      </ion-col>
+      <ion-col size="1">
+        {{entry.Crs}}
+      </ion-col>
+      <ion-col size="1">
+        {{entry.Sec}}
+      </ion-col>
+      <ion-col size="4">
+        {{entry.CourseTitle}}
+      </ion-col>
+      <ion-col size="1">
+        {{entry.Days}}
+      </ion-col>
+      <ion-col size="1">
+        {{entry.Start}}
+      </ion-col>
+      <ion-col size="1">
+        {{entry.Stop}}
+      </ion-col>
+      <ion-col size="2">
+        {{entry.Room}}
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
 </ion-content>

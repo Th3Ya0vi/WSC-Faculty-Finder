@@ -839,6 +839,7 @@ module.exports = webpackAsyncContext;
 var map = {
 	"../tab1/tab1.module": [
 		"./src/app/tab1/tab1.module.ts",
+		"default~details-details-module~tab1-tab1-module",
 		"common",
 		"tab1-tab1-module"
 	],
@@ -848,6 +849,7 @@ var map = {
 	],
 	"./details/details.module": [
 		"./src/app/details/details.module.ts",
+		"default~details-details-module~tab1-tab1-module",
 		"common",
 		"details-details-module"
 	],

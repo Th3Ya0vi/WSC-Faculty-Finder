@@ -24,7 +24,7 @@
 
     <ion-row>
 
-      <ion-searchbar placeholder="Search for any name.." [(ngModel)]="search"></ion-searchbar>
+      <ion-searchbar placeholder="Search..." [(ngModel)]="search"></ion-searchbar>
 
     </ion-row>
 
@@ -42,7 +42,8 @@
         </ion-col>
 
       </ion-row>
-      <ion-row class="rowborder" *ngFor="let entry of data | filter:search; let i = index" [routerLink]="['/','details',entry.name]">
+      <ion-row class="rowborder" *ngFor="let entry of data | filter:search; let i = index"
+        [routerLink]="['/','details',entry.name]">
         <ion-col size="1">
           <small>{{i+1}}</small>
         </ion-col>
