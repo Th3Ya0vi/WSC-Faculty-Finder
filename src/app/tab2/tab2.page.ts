@@ -22,14 +22,14 @@ export class Tab2Page {
     let fname = Date.now();
 
     if(this.platform.is('android')){
-       this.file.copyFile(path,'test.pdf',this.file.dataDirectory, `${fname}.pdf`).then(results=>{
+       this.file.copyFile(path,'Gardner.pdf',this.file.dataDirectory, `${fname}.pdf`).then(results=>{
          this.fileOpener.open(results.nativeURL,'application/pdf');
        }).catch(err=>{
          alert(err);
        })
     }else{
       const options : DocumentViewerOptions = {
-        title : "PDF"
+        title : "MAP"
       }
       this.documentViewer.viewDocument(`${path}/test.pdf`,'application/pdf',options);
     }

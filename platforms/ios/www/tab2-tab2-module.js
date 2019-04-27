@@ -104,7 +104,7 @@ var Tab2Page = /** @class */ (function () {
         var path = this.file.applicationDirectory + "www/assets";
         var fname = Date.now();
         if (this.platform.is('android')) {
-            this.file.copyFile(path, 'test.pdf', this.file.dataDirectory, fname + ".pdf").then(function (results) {
+            this.file.copyFile(path, 'Gardner.pdf', this.file.dataDirectory, fname + ".pdf").then(function (results) {
                 _this.fileOpener.open(results.nativeURL, 'application/pdf');
             }).catch(function (err) {
                 alert(err);
@@ -112,7 +112,7 @@ var Tab2Page = /** @class */ (function () {
         }
         else {
             var options = {
-                title: "PDF"
+                title: "MAP"
             };
             this.documentViewer.viewDocument(path + "/test.pdf", 'application/pdf', options);
         }
