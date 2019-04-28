@@ -31,7 +31,7 @@ export class Tab2Page {
       const options : DocumentViewerOptions = {
         title : "MAP"
       }
-      this.documentViewer.viewDocument(`${path}/test.pdf`,'application/pdf',options);
+      this.documentViewer.viewDocument(`${path}/Gardner.pdf`,'application/pdf',options);
     }
   }
 }

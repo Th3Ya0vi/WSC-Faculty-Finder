@@ -52,7 +52,7 @@ var Tab2PageModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-header>\n  <ion-toolbar color=\"primary\">\n    <ion-title>\n      PDF\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-button expand=\"full\" (click)=\"openPdf()\">\n       Open PDF\n  </ion-button>\n</ion-content>"
+module.exports = "<ion-header>\n  <ion-toolbar color=\"primary\">\n    <ion-title>\n      MAP\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-button expand=\"full\" (click)=\"openPdf()\">\n       Open MAP\n  </ion-button>\n</ion-content>"
 
 /***/ }),
 
@@ -114,7 +114,7 @@ var Tab2Page = /** @class */ (function () {
             var options = {
                 title: "MAP"
             };
-            this.documentViewer.viewDocument(path + "/test.pdf", 'application/pdf', options);
+            this.documentViewer.viewDocument(path + "/Gardner.pdf", 'application/pdf', options);
         }
     };
     Tab2Page = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
