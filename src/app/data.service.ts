@@ -1272,7 +1272,7 @@ export class DataService {
   ]
 
 
-  findTecherByName(name) {
+  findTeacherByName(name) {
     return this.data.find(x => x.name === name);
   }
 }

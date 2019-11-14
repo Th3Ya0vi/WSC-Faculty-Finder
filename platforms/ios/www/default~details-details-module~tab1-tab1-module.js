@@ -1193,7 +1193,7 @@ var DataService = /** @class */ (function () {
             },
         ];
     }
-    DataService.prototype.findTecherByName = function (name) {
+    DataService.prototype.findTeacherByName = function (name) {
         return this.data.find(function (x) { return x.name === name; });
     };
     DataService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([

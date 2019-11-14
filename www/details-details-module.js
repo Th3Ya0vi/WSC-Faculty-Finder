@@ -98,7 +98,7 @@ var DetailsPage = /** @class */ (function () {
     }
     DetailsPage.prototype.ngOnInit = function () {
         this.name = this.activatedRoute.snapshot.paramMap.get('name');
-        this.schedule = this.dataService.findTecherByName(this.name);
+        this.schedule = this.dataService.findTeacherByName(this.name);
         console.log(this.schedule);
     };
     DetailsPage = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
